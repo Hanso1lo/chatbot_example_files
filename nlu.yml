@@ -1,0 +1,53 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - good evening
+    - hey there
+- intent: goodbye
+  examples: |  
+    - bye
+    - goodbye
+    - see you around
+    - see you later
+
+- intent: find_time_zone
+  examples: |
+    - can you tel the time?
+    - could you tel me the time?
+    - I need you to find a time zone
+    - Can you find me a time zone?
+    - What time is it?
+    - Tell me the timezone
+
+- intent: find_time_zone_for_location
+  examples: |
+    - what is the time zone of [London](city)
+    - time zone of [Lisbon](city)
+    - do you know the timezone for [Berlin](city)
+    - I need to know the time zone of [Mumbai](city)
+    - [Oslo](city) time zone
+    - What is the time in [Frankfurt](city)
+
+- intent: city_info
+  examples: |
+    - [London](city)
+    - [San Francisco](city)
+    - [New Delhi](city)
+    - [Oslo](city)
+    - [Auckland](city)
+    - [Berlin](city)
+    - [Frankfurt](city)
+    - [New York](city)
+    - [Paris](city)
+    - [Madrid](city)
+
+- intent: thanks
+  examples: |
+    - thank you
+    - thanks
+    - great, thanks
