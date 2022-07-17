@@ -8,4 +8,6 @@ The related configuration file is 1_pairs.txt. The file defines how the chatbot 
 
 ## 2 Chatbot using NLTK and Pytorch
 
-## 3 Chatbot using the RASA package. Has 3 "configuration files". The RASA package offers a higher level way to program chatbots. There is very little "programming" involved as most of the details are run in a black box manner by the package (i.e. it is not clear from the start what sort of networ is operating in the background and so forth. 
+## 3 Chatbot using the RASA package. 
+
+Has 3 "configuration files". The RASA package offers a higher level way to program chatbots. There is very little "programming" involved as most of the details are run in a black box manner by the package (i.e. it is not clear from the start what sort of networ is operating in the background and so forth. 
