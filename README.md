@@ -13,5 +13,3 @@ This chatbot is best for understanding the background of deep learning in the co
 ## 3 Chatbot using the RASA package. 
 
 Has 3 "configuration files". The RASA package offers a higher level way to program chatbots. There is very little "programming" involved as most of the details are run in a black box manner by the package (i.e. it is not clear from the start what sort of networ is operating in the background and so forth. 
-
-testline
